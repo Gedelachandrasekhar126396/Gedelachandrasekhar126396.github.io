@@ -2,6 +2,7 @@
     display: flex;
     height: 77vh;
     margin-top: 6rem;
+    font-family: 'Roboto', sans-serif;
 }
 .i-left{
     display: flex;
@@ -68,5 +69,5 @@
     transform: scale(0.47);
     left:-10rem;
     top:-10rem;
-    border-radius: 50%;
+    border-radius: 30%;
 }

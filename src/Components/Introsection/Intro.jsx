@@ -8,7 +8,7 @@ const Intro = () => {
             <div className="i-name">
                 <span>Hello! </span>
                 <span>This is Chandra Sekhar</span>
-                <span  style={{padding:"15px 0px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque aliquam, voluptatibus fugit sapiente eveniet qui veniam, aliquid deserunt dolorem, aut repellendus at impedit. Adipisci incidunt ex voluptatum assumenda in cupiditate?</span>
+                <span  style={{padding:"15px 0px",fontSize:"20px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque aliquam, voluptatibus fugit sapiente eveniet qui veniam, aliquid deserunt dolorem, aut repellendus at impedit. Adipisci incidunt ex voluptatum assumenda in cupiditate?</span>
             </div>
             <button className='button i-button' >Hire-Me</button>
             <div className="i-icons">
