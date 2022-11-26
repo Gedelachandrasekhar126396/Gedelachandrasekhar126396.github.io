@@ -6,6 +6,8 @@
    top: 0px;
    background-color: white;
    font-family: 'Roboto', sans-serif;
+   padding: 10px;
+   z-index: 10;
 }
 .n-left{
     flex:1;
@@ -46,10 +48,12 @@
     border-radius: 34px;
     border:none;
     color:white;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     background: linear-gradient(180deg, #fdcf0f, 26.71%, #fb982f 99.36%);
     box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+    position: relative;
+    top: -7px;
   }
   .button:hover{
     background:var(--white);

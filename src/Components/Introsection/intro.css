@@ -34,7 +34,7 @@
 }
 .i-button{
     width: 6rem;
-    height: 2rem;
+    /* height: 2rem; */
 }
 .i-icons{
     margin-top: 3rem;
@@ -59,6 +59,7 @@
 .i-right>:nth-child(1){
     transform: scale(0.69);
     left: -15%;
+    top: -9%;
 }
 .i-right>:nth-child(2){
     transform: scale(0.67);
@@ -66,8 +67,9 @@
     top:-4.6rem;
 }
 .i-right>:nth-child(3){
-    transform: scale(0.47);
-    left:-10rem;
-    top:-10rem;
-    border-radius: 30%;
+    transform: scale(0.31);
+    /* left: 28%; */
+    top:-30rem;
+    left: -17rem;
+    border-radius: 12px;
 }

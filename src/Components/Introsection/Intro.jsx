@@ -19,7 +19,7 @@ const Intro = () => {
         <div className="i-right">
             <img src="https://user-images.githubusercontent.com/107903370/204101972-b002d091-af9f-493f-8ac4-b2de85e084dd.png" alt="vec1" />
             <img src="https://user-images.githubusercontent.com/107903370/204102049-e8be336f-745e-4f56-ac84-85b1dffe6231.png" alt="vec2" />
-            <img src="https://user-images.githubusercontent.com/107903370/204104218-89c5e976-39fb-433d-98c3-f2340c6fbb04.PNG" alt="vec3" />
+            <img src="https://user-images.githubusercontent.com/107903370/204106374-2e3d1c82-407e-4f17-888c-e08e45f26719.png" alt="vec3" />
         </div>
     </div>
   )
