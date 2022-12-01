@@ -1,7 +1,25 @@
 .technicalskills{
     padding: 0 3rem;
-    display: flex;
+    
     height: 90vh;
     margin-bottom: 8rem;
     margin-top: 9rem;
+    text-align: center;
+}
+.my-Tech{
+  font-weight: bold;font-size: 2.5rem;
+}
+.tech-list{
+    display: flex;
+    padding: 4rem 2rem;
+    justify-content: space-evenly;
+}
+.tech-list img{
+    border: 4px solid var(--orange);
+    border-radius: 10%;
+}
+.tech-list img:hover{
+    border: 4px solid var(--orange);
+    transform: scale(1.1);
+    border-radius: 10%;
 }

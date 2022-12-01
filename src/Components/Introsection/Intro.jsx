@@ -1,17 +1,17 @@
 import React from 'react'
 import { FloatingDiv } from '../FloatingDiv/FloatingDiv';
 import './intro.css';
-
+import Resume from './Gedela_Sekhar_Resume.pdf' 
 const Intro = () => {
   return (
     <div className="intro">
         <div className="i-left">
             <div className="i-name">
-                <span>Hello! </span>
+                <span>Hello! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" alt='hi-emoji' width="35"></img></span>
                 <span>This is Chandra Sekhar</span>
-                <span  style={{padding:"15px 0px",fontSize:"20px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque aliquam, voluptatibus fugit sapiente eveniet qui veniam, aliquid deserunt dolorem, aut repellendus at impedit. Adipisci incidunt ex voluptatum assumenda in cupiditate?</span>
+                <span  style={{padding:"15px 0px"}}>Full-Stack Web Developer.</span>
             </div>
-            <button className='button i-button' >Resume</button>
+            <a href={Resume} download ><button className='button i-button' >Resume</button></a>
             <div className="i-icons">
                <a href='https://github.com/Gedelachandrasekhar126396' ><img src="https://user-images.githubusercontent.com/107903370/204101328-9ada5339-1950-41f2-a4d2-f3e6ed413fe5.png" alt="GithubPng" /></a>
                <a  href='https://www.linkedin.com/in/gedela-chandra-2b4a64246/'>

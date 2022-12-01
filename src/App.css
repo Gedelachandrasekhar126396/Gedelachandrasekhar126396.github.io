@@ -18,6 +18,15 @@
     /* overflow: hidden; */
     color: var(--black);    
 }
+.blur{
+  position: absolute;
+  left: 70rem;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  filter: blur(72px);
+}
+
 
 .button{
   border-radius: 34px;

@@ -3,13 +3,27 @@ import './TechnicalSkills.css'
 const TechnicalSkills = () => {
   return (
     <div className='technicalskills'>
-        <div className='awesoms' >
-            <span>My Technical</span>
-            <span>Skills</span>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas temporibus animi natus consectetur dolorem quo adipisci fuga cum quasi itaque ,<br/>nesciunt ut doloribus veniam, distinctio exercitationem, maiores deserunt iure tenetur.</span>
-            <button className='button' >Resume-Download</button>
+      
+            <span className='my-Tech'>My Technical <span style={{color:"var(--orange"}} >Skills</span></span><br/>
+            
+            
            
-        </div>
+    <div className='tech-list'>
+    <img src="https://celadon-cupcake-06e616.netlify.app/images/html.png" alt="" />
+            <img src="https://celadon-cupcake-06e616.netlify.app/images/css.png" alt="" />
+            <img src="https://celadon-cupcake-06e616.netlify.app/images/js.png" alt="" />
+            <img src="https://celadon-cupcake-06e616.netlify.app/images/react.png" alt="" />
+            <img src="https://celadon-cupcake-06e616.netlify.app/images/chakra%20ui.png" alt="" />
+            <img src="https://celadon-cupcake-06e616.netlify.app/images/nodejs.png" alt="" />
+    </div>
+      
+          
+         
+          
+   
+
+   
+      
     </div>
   )
 }
