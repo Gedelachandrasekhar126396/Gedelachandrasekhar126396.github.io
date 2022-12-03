@@ -34,10 +34,11 @@
 }
 .i-button{
     width: 8rem;
+    margin-top: 10px;
     /* height: 2rem; */
 }
 .i-icons{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     display: flex;
     gap: 0px;
 }
@@ -57,20 +58,20 @@
     z-index: 1;
 }
 .i-right>:nth-child(1){
-    transform: scale(0.69);
-    /* left: -15%; */
-    top: -9%;
+    transform: scale(0.85);
+    left: 10%;
+    top: 0%;
 }
 .i-right>:nth-child(2){
-    transform: scale(0.67);
-    /* left: -3rem; */
-    top:-7.5rem;
+    transform: scale(0.86);
+    left: 6rem;
+    top:-2.5rem;
 }
 .i-right>:nth-child(3){
-    transform: scale(0.45);
+    transform: scale(0.65);
     /* left: 28%; */
-    top:-15rem;
-    left: -6rem;
+    top:-7rem;
+    left: 3rem;
     border-radius: 12px;
 }
 .i-right>:nth-child(4){

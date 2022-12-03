@@ -9,13 +9,13 @@ const TechnicalSkills = () => {
             
            
     <div className='tech-list'>
-    <img src="https://celadon-cupcake-06e616.netlify.app/images/html.png" alt="" />
-            <img src="https://celadon-cupcake-06e616.netlify.app/images/css.png" alt="" />
-            <img src="https://celadon-cupcake-06e616.netlify.app/images/js.png" alt="" />
-            <img src="https://celadon-cupcake-06e616.netlify.app/images/react.png" alt="" />
-            <img src="https://celadon-cupcake-06e616.netlify.app/images/chakra%20ui.png" alt="" />
-            <img src="https://celadon-cupcake-06e616.netlify.app/images/nodejs.png" alt="" />
-    </div>
+    <div className='tech'><img src="https://celadon-cupcake-06e616.netlify.app/images/html.png" alt="" /></div>
+          <div className='tech'>  <img src="https://celadon-cupcake-06e616.netlify.app/images/css.png" alt="" /></div>
+        <div className='tech'>   <img src="https://celadon-cupcake-06e616.netlify.app/images/js.png" alt="" /> </div> 
+          <div className='tech'>  <img src="https://celadon-cupcake-06e616.netlify.app/images/react.png" alt="" /> </div>
+          <div className='tech'>  <img src="https://celadon-cupcake-06e616.netlify.app/images/chakra%20ui.png" alt="" /> </div>
+        <div className='tech'>    <img src="https://celadon-cupcake-06e616.netlify.app/images/nodejs.png" alt="" /></div>
+    </div >
       
           
          

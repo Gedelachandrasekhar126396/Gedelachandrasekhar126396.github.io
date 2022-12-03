@@ -1,13 +1,15 @@
 .n-wrapper{
-    height : 10vh;
+    height : 85px;
     display: flex;
    justify-content: space-evenly;
    position: sticky;
    top: 0px;
    background-color: white;
    font-family: 'Roboto', sans-serif;
-   padding: 10px;
+   /* padding: 10px 0px; */
    z-index: 10;
+   margin-top: -10px;
+   padding-top: 20px;
 }
 .n-left{
     flex:1;
@@ -30,7 +32,7 @@
     flex: 10;
 }
 .n-list li{
-    font-size: 20px;
+    font-size: 22px;
 }
 .n-list>ul{
     display: flex;
@@ -42,7 +44,7 @@
    cursor: pointer;
    color: var(--orange);
    text-decoration: underline;
-   font-size: 23px;
+   font-size: 24px;
 }
 .button{
     border-radius: 34px;

@@ -7,9 +7,9 @@ const Intro = () => {
     <div className="intro">
         <div className="i-left">
             <div className="i-name">
-                <span>Hello! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" alt='hi-emoji' width="35"></img></span>
+                <span>Hello! </span>
                 <span>This is Chandra Sekhar</span>
-                <span  style={{padding:"15px 0px"}}>Full-Stack Web Developer.</span>
+                <span  style={{padding:"0px 0px"}}>Full-Stack Web Developer.</span>
             </div>
             <a href={Resume} download ><button className='button i-button' >Resume</button></a>
             <div className="i-icons">
@@ -29,7 +29,7 @@ const Intro = () => {
         <FloatingDiv image="https://user-images.githubusercontent.com/107903370/204351431-421ad929-f0f5-4ee8-9d46-84fa471eef11.png" txt1="Web" txt2="Developer" />
         
         <div className='blur' style={{backgroundColor:"rgb(238 210 255"}} ></div>
-        {/* <div className='blur blue-blur' style={{background:"#C1F5FF",heigth:'11rem',width:'21rem'}} ></div> */}
+        <div className='blur blue-blur' style={{background:"#C1F5FF",heigth:'3rem',width:'5rem'}} ></div>
     </div>
   )
 }
