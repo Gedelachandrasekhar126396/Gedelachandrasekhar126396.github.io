@@ -14,4 +14,12 @@
 }
 .about{
     text-align: center;
+    margin-top: 70px;
 }
+@media screen and (max-width:480px){
+    .about{
+        /* margin-top: 250px; */
+        flex-direction: column;
+        gap: 5rem;
+    }
+  }

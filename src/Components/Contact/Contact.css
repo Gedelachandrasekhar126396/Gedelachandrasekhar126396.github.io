@@ -1,0 +1,78 @@
+.contact-form{
+    padding: 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 8rem;
+}
+.cont-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+.cont-right >form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    z-index: 1;
+}
+.cont-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height: 4rem!important;
+}
+
+.send-button{
+    height: 2.7rem;
+    width: 6rem;
+}
+.gmail{
+    font-size:18px; text-decoration:underline;padding-left:5px
+}
+@media screen and (max-width:480px){
+   .contact-form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 250px;padding: 0px;
+   }
+  
+    }
+    
+    @media all and (min-width: 401px) and (max-width: 800px) {
+        .contact-form{
+            padding: 0 0rem;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-bottom: 250px;padding: 0px;
+           }
+           .user{
+            width: 80%;
+           }
+    }
+    @media all and (min-width: 100px) and (max-width: 400px) {
+        .contact-form{
+            padding: 0 0rem;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-bottom: 250px;padding: 0px;
+           }
+           .user{
+            width: 200px;
+            
+           }
+           #cont-email,#cont-message,#cont-name{
+            width: 250px;
+            align-items: flex-start;
+           }
+           .gmail{
+            font-size:13px; text-decoration:underline;padding-left:5px
+        }
+    }

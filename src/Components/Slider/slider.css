@@ -132,4 +132,10 @@
   .play-pause {
     color: black;
   }
- 
+  @media screen and (max-width:480px){
+    .slider-container{
+     /* transform: scale(0.8); */
+     padding: 0px 10px;
+    }
+  
+    }

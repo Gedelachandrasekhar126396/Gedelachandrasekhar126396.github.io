@@ -2,7 +2,7 @@ import React from "react";
 
 function SliderContent({ activeIndex, sliderImage }) {
   return (
-    <div  >
+    <div id="Projects" >
             <span className='my-Tech heading'>My Portfolio <span style={{color:"var(--orange)",marginBottom:"100px"}} >Projects</span></span><br/>
       {sliderImage.map((slide, index) => (
       <a href={slide.netlify} >  <div

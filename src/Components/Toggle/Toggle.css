@@ -1,0 +1,18 @@
+.toggle{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid var(--orange);
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+}
+.toggle>*{
+    width: 4rem;
+    height: 1.5rem;
+    color: var(--orange);
+}
+.toggle-button{
+    font-weight: bold;
+    font-size: 18px;
+}
