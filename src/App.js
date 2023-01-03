@@ -3,7 +3,7 @@
 import './App.css';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer';
 import Intro from './Components/Introsection/Intro';
 // import Navbar from './Components/Navbar/Navbar';
 // import Slider from './Components/Slider/Slider';
@@ -35,7 +35,7 @@ const darkMode =theme.state.darkMode;
       {/* <Slider/> */}
       <ProjectsList/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
       
     </div>
   );

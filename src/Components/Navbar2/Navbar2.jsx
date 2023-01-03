@@ -11,10 +11,10 @@ const Navbar2 = () => {
     const darkMode = theme.state.darkMode;
     const [clicked,setClicked] = useState(true);
   return (
-    <div className="n-wrapper"  style={{color:darkMode?"white":"",background:darkMode?"black":"white"}} id='Navbar' >
+    <div className="n-wrapper"  style={{color:darkMode?"#e54c4c":"",background:darkMode?"2B2B2B":"white"}} id='Navbar' >
         <div className="n-left">
             <div className="n-name">Chandra Sekhar</div>
-            {/* <Toggle/> */}
+    
         </div>
         <div className="n-right">
             <div>
@@ -29,9 +29,9 @@ const Navbar2 = () => {
                     <li>Projects</li></Link>   
                     <Link spy={true} to= 'Resume' smooth={true} onClick={()=>{setClicked(!clicked)}} >
                     <li>Resume</li></Link>  
-                    <Link spy={true} to= 'Resume' smooth={true} onClick={()=>{setClicked(!clicked)}} >
-                    <li>Github-Stats</li></Link>  
-                    <Link spy={true} to='ContactMe' smooth={true} onClick={()=>{setClicked(!clicked)}} >
+                    {/* <Link spy={true} to= 'Resume' smooth={true} onClick={()=>{setClicked(!clicked)}} >
+                    <li>Github-Stats</li></Link>   */}
+                    <Link spy={true} to='ContactMe' id="contactMe" smooth={true} onClick={()=>{setClicked(!clicked)}} >
                      <li>Contact Me</li></Link> 
                 </ul>
               

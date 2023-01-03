@@ -1,15 +1,23 @@
 import React from 'react'
 import './About.css';
-import { themeContext } from '../../Context';
-import { useContext } from 'react';
+import { Heading } from '@chakra-ui/react';
 const About = () => {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+  
+  
   return (
     <div className='about'id='AboutMe' >
-        <span style={{textAlign:"center",color:darkMode?"white":""}} ><span style={{color:"var(--orange)"}} >About</span> MySelf</span>
-        <p >I am a person who is desired to learn new things and am fascinated by the concepts which thrill me while learning and understanding.With this experience, I was destined to see myself as a tech guy.I have a piece of good knowledge of Data structures and algorithms, HTML, CSS, and JavaScript.Building a few projects got me hands-on experience with React and trained me to become a more adaptive and collaborative professional. <br/><br/>
-       <p style={{color:"var(--orange)"}} > Currently, I am enjoying a wonderful opportunity to learn new things about the MERN stack web development and am so excited to become a full-stack web developer.</p> </p>
+       <Heading style={{fontSize:"42px",textAlign:"center",marginBottom:"30px"}} as='h1' size='2xl' noOfLines={1}>
+     About Me
+  </Heading>
+  {/* <p class='about-heading'>About Me</p> */}
+      <div class="description" >
+      
+        <img class="AboutImg" src="https://user-images.githubusercontent.com/107903370/210316606-1c0f0fc6-2f6b-4377-b3cc-0582b53700d7.jpg" alt="animated" />
+      
+        <p  class="aboutText">
+        Full stack web developer with specialisation in JavaScript, HTML, CSS , REACT , REST API , Git/GITHUB Object-Oriented design. Offering excellence in analytical decision making and articulate presenter with ability to communicate technical information with clear and concise manner. 450+ hours of coding and hands-on experience in developing website features
+        </p>
+      </div>
     </div>
   )
 }
