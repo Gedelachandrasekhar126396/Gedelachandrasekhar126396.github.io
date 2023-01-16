@@ -44,8 +44,3 @@
   color: black;
   border: 1px solid white;
 }
-@media screen and (max-width:480px){
-  .App{
-    /* padding: 0.5rem 1rem; */
-  }
-}

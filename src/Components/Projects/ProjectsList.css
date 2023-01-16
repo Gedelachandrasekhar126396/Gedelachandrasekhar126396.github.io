@@ -4,3 +4,39 @@
     display: flex;
     justify-content: center;
 }
+.singleProject{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    border: 2px solid teal;
+    border-radius: 0%;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+.singleProject{
+    display: flex;
+    align-items: center;
+}
+.project-links{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap:20px;
+}
+.projectList{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.netlify-icon:hover{
+    color: rgb(229, 76, 76);
+}
+@media   (max-width :770px) and (min-width:100px) {
+    .singleProject{
+        display: grid;
+    }
+
+}
+ 

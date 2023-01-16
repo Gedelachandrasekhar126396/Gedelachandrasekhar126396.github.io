@@ -11,7 +11,7 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
   
   return (
-    <div className="intro">
+    <div className="intro" id="IntoPart" >
         <div className="i-left">
         <img id="profilePic" src="https://user-images.githubusercontent.com/107903370/204104218-89c5e976-39fb-433d-98c3-f2340c6fbb04.PNG" alt="vec3" />
         </div>

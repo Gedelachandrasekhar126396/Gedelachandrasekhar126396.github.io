@@ -7,37 +7,37 @@ const TechnicalSkills = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div className='technicalskills'id='Skills' >
-      
-            <span className='my-Tech'> Technical <span style={{color:"var(--orange"}} >Skills</span></span><br/>
+          <br/>
+            <span className='my-Tech'  > Technical <span>Skills</span></span><br/>
             
             
-           
+           <br/> <br/>
             <div class="technicalSkillsList" >
-        <div style={{textAlign:"center",border:darkMode?"1px solid white":""}} >
+        <div style={{textAlign:"center",border:darkMode?"2px solid teal":""}} >
             <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html" /> <br/>
             <label>HTML</label>
         </div>
-        <div  style={{textAlign:"center",border:darkMode?"1px solid white":""}}>
+        <div  style={{textAlign:"center",border:darkMode?"2px solid teal":""}}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="html"  /> <br/>
             <label>CSS</label>
         </div>
-        <div style={{textAlign:"center",border:darkMode?"1px solid white":""}}>
-            <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="html"  /> <br/>
+        <div style={{textAlign:"center",border:darkMode?"2px solid teal":""}}>
+            <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png" alt="html"  /> <br/>
             <label>JavaScript</label>
         </div>
-         <div style={{textAlign:"center",border:darkMode?"1px solid white":""}}>
+         <div style={{textAlign:"center",border:darkMode?"2px solid teal":""}}>
             <img  src="https://cdn.icon-icons.com/icons2/2415/PNG/96/react_original_logo_icon_146374.png" alt="html" /> <br/>
             <label>React-Js</label>
         </div>
-         <div style={{textAlign:"center",border:darkMode?"1px solid white":""}}>
+         <div style={{textAlign:"center",border:darkMode?"2px solid teal":""}}>
             <img src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png" alt="html" /> <br/>
             <label>Next-Js</label>
         </div> 
-        <div style={{textAlign:"center",border:darkMode?"1px solid white":""}}>
+        <div style={{textAlign:"center",border:darkMode?"2px solid teal":""}}>
             <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="html" /> <br/>
             <label>TypeScript</label>
         </div> 
-        <div style={{textAlign:"center",border:darkMode?"1px solid white":""}}>
+        <div style={{textAlign:"center",border:darkMode?"2px solid teal":""}}>
             <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png" alt="html"  /> <br/>
             <label>Node-Js</label>
         </div>

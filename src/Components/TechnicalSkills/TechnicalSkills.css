@@ -11,6 +11,7 @@
 /* background-image: linear-gradient(to bottom, #87e6bf 0%, #ffc05c 100%); */
 .my-Tech{
   font-weight: bold;font-size: 2.5rem;
+  margin: 20px 0px;
 }
 
 
@@ -19,7 +20,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 55px 0px;
-    padding: 40px 130px;
+    /* padding: 40px 130px; */
+    margin: 0px 200px;
 
 }
 .technicalSkillsList div{
@@ -52,12 +54,10 @@
     .technicalSkillsList{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* gap: 55px 0px; */
-    /* padding: 100px 300px; */
-    /* align-items: center; */
+  
     justify-content: center;
     padding: 0px;
-
+    margin: 0px 40px;
 }
 .technicalSkillsList div{
 transform: scale(0.7);
@@ -73,7 +73,7 @@ transform: scale(0.7);
     /* padding: 100px 300px; */
     align-items: center;
     padding: 0px;
-
+    margin: 0px 00px;
 }
 .technicalSkillsList div{
 transform: scale(0.7);

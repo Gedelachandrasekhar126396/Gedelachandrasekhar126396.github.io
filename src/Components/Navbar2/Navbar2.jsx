@@ -19,7 +19,7 @@ const Navbar2 = () => {
         <div className="n-right">
             <div>
                 <ul id="n-list" className={clicked? "#n-list":"#n-list active"} style={{color:darkMode?"white":"",background:darkMode?"black":"white"}} > 
-                <Link spy={true} to='Navbar' smooth={true} activeClass='activeClass'>
+                <Link spy={true} to='IntoPart' smooth={true} activeClass='activeClass'>
                          <li>Home</li>   </Link>  
                     <Link spy={true} to= 'AboutMe' smooth={true} onClick={()=>{setClicked(!clicked)}} >
                          <li>About Me</li>  </Link>   

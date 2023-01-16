@@ -1,0 +1,16 @@
+#statImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px
+}
+@media (max-width:770px) and (min-width:100px) {
+    #statImages{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:20px;
+        width:80%;
+        margin: auto;
+    }
+}
