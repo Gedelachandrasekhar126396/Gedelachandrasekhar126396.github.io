@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.a586070b.css",
-    "main.js": "/static/js/main.2165e14f.js",
+    "main.js": "/static/js/main.eb30eaa9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Gedela_Sekhar_Resume.pdf": "/static/media/Gedela_Sekhar_Resume.ab696335fe3c4a69b12d.pdf",
     "index.html": "/index.html",
     "main.a586070b.css.map": "/static/css/main.a586070b.css.map",
-    "main.2165e14f.js.map": "/static/js/main.2165e14f.js.map",
+    "main.eb30eaa9.js.map": "/static/js/main.eb30eaa9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a586070b.css",
-    "static/js/main.2165e14f.js"
+    "static/js/main.eb30eaa9.js"
   ]
 }
